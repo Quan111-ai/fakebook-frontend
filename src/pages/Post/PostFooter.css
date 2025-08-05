@@ -1,0 +1,63 @@
+.post-footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .like-button {
+    background: #0072ff;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.2rem;
+  }
+  
+  .like-button:hover {
+    background: #0056b3;
+  }
+  
+  .view-likes-button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .view-likes-button:hover {
+    background: #218838;
+  }
+  
+  .likes-list {
+    margin-top: 10px;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .likes-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .likes-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .likes-list li:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,0 +1,16 @@
+:root {
+  --main-bg: linear-gradient(to right, #141e30, #243b55);
+}
+
+/* Áp dụng kiểu global cho body */
+body {
+  margin: 0;
+  padding-top: 80px; /* Khoảng trống cho header */
+  background: var(--main-bg);
+  font-family: 'Poppins', sans-serif;
+  /* Căn giữa nội dung nếu cần (tùy thuộc vào layout của bạn) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}

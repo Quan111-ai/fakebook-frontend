@@ -1,0 +1,109 @@
+/* Cập nhật bố cục rộng hơn, cân đối hơn và nâng cấp giao diện với Material UI */
+
+.post-detail-container {
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 50px;
+  background: #0d1117;
+  border-radius: 20px;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.loading-text {
+  margin-top: 14px;
+  font-size: 1.8rem;
+  color: #ffcc00;
+}
+
+.post-detail {
+  padding: 50px;
+  background: #161b22;
+  border-radius: 20px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 1200px;
+}
+
+.post-card {
+  box-shadow: none;
+  background: #1f2937;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.post-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffdd57;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.post-meta {
+  font-size: 1.4rem;
+  color: #c9c9c9;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.post-category, .post-tags {
+  font-size: 1.3rem;
+  color: #ffac44;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.post-content {
+  font-size: 1.6rem;
+  line-height: 2.2;
+  color: #0d0b0b;
+  text-align: justify;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+.post-comments-section {
+  margin-top: 50px;
+  padding: 40px;
+  background: #222e46;
+  border-radius: 20px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Điều chỉnh hình ảnh để phù hợp với nền tối */
+.post-detail img {
+  border-radius: 20px;
+  max-height: 600px;
+  object-fit: cover;
+  width: 100%;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .post-detail-container {
+    padding: 30px;
+  }
+  .post-title {
+    font-size: 2.8rem;
+  }
+  .post-content {
+    font-size: 1.4rem;
+    padding: 20px;
+  }
+}

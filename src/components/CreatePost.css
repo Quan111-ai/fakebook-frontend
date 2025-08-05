@@ -1,0 +1,87 @@
+.create-post-container {
+  background-color: rgba(71, 40, 40, 0.8); /* Làm nền trong suốt nhẹ */
+  padding: 10px 20px; /* Giảm khoảng cách trong */
+  border-radius: 8px; /* Bo góc nhẹ */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ hơn */
+  width: 90%; /* Điều chỉnh chiều rộng để không quá dày */
+  max-width: 600px; /* Giới hạn tối đa để không bị to */
+  margin: 20px auto; /* Căn giữa */
+}
+
+
+.create-post-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #FFCC80;
+}
+
+.create-post-container .form-group {
+  margin-bottom: 15px;
+}
+
+.create-post-container label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #FFECB3;
+}
+
+.create-post-container input[type="text"],
+.create-post-container input[type="file"],
+.create-post-container input[type="date"],
+.create-post-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #8D6E63;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #5D4037;
+  color: #F5E6CA;
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+.create-post-container input:focus,
+.create-post-container textarea:focus {
+  outline: none;
+  border-color: #D7CCC8;
+  background: #4E342E;
+}
+
+.create-post-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.create-post-container .error-message {
+  color: #E57373;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.create-post-container .success-message {
+  color: #81C784;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.create-post-container button {
+  width: 80%;
+  padding: 12px;
+  background-color: #A1887F;
+  color: #F5E6CA;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 15px auto;
+  display: block;
+}
+
+.create-post-container button:hover {
+  background-color: #8D6E63;
+  transform: translateY(-2px);
+}

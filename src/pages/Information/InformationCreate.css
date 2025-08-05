@@ -1,0 +1,76 @@
+/* Container của form tạo thông tin */
+.information-create-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Tiêu đề form */
+  .information-create-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0072ff;
+  }
+  
+  /* Style cho label */
+  .information-create-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Style cho input */
+  .information-create-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .information-create-container input:focus {
+    outline: none;
+    border-color: #0072ff;
+  }
+  
+  /* Style cho nút Tạo */
+  .information-create-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .information-create-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Thông báo lỗi và thành công */
+  .error-message {
+    text-align: center;
+    color: #ff4d4f;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    text-align: center;
+    color: #52c41a;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  

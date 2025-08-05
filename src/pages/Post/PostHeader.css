@@ -1,0 +1,16 @@
+.post-header {
+    margin-bottom: 30px;
+  }
+  .post-title {
+    font-size: 3rem;           /* Tăng kích thước tiêu đề */
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .post-meta {
+    font-size: 1rem;
+    color: #cccccc;
+    text-align: left;
+  }
+  
